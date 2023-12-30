@@ -1,8 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrawlCtrl.Extensions.Microsoft.DependencyInjection", "src\CrawlCtrl.Extensions.Microsoft.DependencyInjection\CrawlCtrl.Extensions.Microsoft.DependencyInjection.csproj", "{60D6BEF5-11CF-4633-84DC-85C833AF4E7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrawlCtrl.Extensions.Microsoft.DependencyInjection.Test", "test\CrawlCtrl.Extensions.Microsoft.DependencyInjection.Test\CrawlCtrl.Extensions.Microsoft.DependencyInjection.Test.csproj", "{37EDF8B5-E807-4575-9D8D-BC658D7CE5E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60D6BEF5-11CF-4633-84DC-85C833AF4E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D6BEF5-11CF-4633-84DC-85C833AF4E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D6BEF5-11CF-4633-84DC-85C833AF4E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D6BEF5-11CF-4633-84DC-85C833AF4E7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37EDF8B5-E807-4575-9D8D-BC658D7CE5E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37EDF8B5-E807-4575-9D8D-BC658D7CE5E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37EDF8B5-E807-4575-9D8D-BC658D7CE5E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37EDF8B5-E807-4575-9D8D-BC658D7CE5E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
