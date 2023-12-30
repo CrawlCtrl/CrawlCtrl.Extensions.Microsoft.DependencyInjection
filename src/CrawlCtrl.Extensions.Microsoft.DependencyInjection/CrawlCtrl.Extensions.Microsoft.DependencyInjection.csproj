@@ -2,11 +2,26 @@
 
     <PropertyGroup>
         <TargetFrameworks>net461;netstandard2.0;netstandard2.1</TargetFrameworks>
+        <Authors>CrawlCtrl Contributors, Michel Gammelgaard</Authors>
+        <Company>Acidus</Company>
+        <Description>Dependency injection extensions for CrawlCtrl.it </Description>
+        <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+        <PackageTags>robots.txt;robots;crawler;crawling;sitemap;di;dependency injection</PackageTags>
+        <Title>CrawlCtrl.Extensions.Microsoft.DependencyInjection</Title>
+        <Copyright>Copyright (c) Acidus 2023</Copyright>
+        <PackageProjectUrl>https://github.com/CrawlCtrl/CrawlCtrl.Extensions.Microsoft.DependencyInjection</PackageProjectUrl>
+        <PackageIcon>icon.png</PackageIcon>
+        <RepositoryUrl>https://github.com/CrawlCtrl/CrawlCtrl.Extensions.Microsoft.DependencyInjection</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="CrawlCtrl" Version="1.0.0-alpha.1" />
       <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="../../assets/logo.png" Pack="true" PackagePath="\" Visible="false" />
     </ItemGroup>
 
 </Project>
