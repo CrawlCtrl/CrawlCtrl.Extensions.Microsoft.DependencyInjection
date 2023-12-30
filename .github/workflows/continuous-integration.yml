@@ -1,11 +1,11 @@
 name: Continuous Integration
 on:
-  pull_request:
   push:
     branches:
       - '**'
-    tags:
-      - '!v**'
+    tags-ignore:
+      - 'release-**'
+  pull_request:
 jobs:
   restore-build-test:
     runs-on: ubuntu-latest
