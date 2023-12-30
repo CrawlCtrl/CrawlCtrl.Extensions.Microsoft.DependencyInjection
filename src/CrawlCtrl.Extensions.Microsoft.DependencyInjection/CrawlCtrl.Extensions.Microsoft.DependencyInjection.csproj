@@ -17,11 +17,12 @@
 
     <ItemGroup>
       <PackageReference Include="CrawlCtrl" Version="1.0.0-alpha.1" />
-      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" Condition="'$(TargetFramework)' == 'NET462_OR_GREATER'" />
     </ItemGroup>
 
     <ItemGroup>
-        <None Include="../../assets/logo.png" Pack="true" PackagePath="\" Visible="false" />
+        <None Include="../../assets/icon.png" Pack="true" PackagePath="\" Visible="false" />
     </ItemGroup>
 
 </Project>
